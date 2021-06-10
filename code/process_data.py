@@ -39,6 +39,4 @@ def process_dataset(base_path, dataset_name, time_param, edge_thershold):
 	labels = labels * 1
 	savetxt(base_path + dataset_name + "/Label_" + write_format + ".csv", labels, delimiter='\n',fmt="%d")
 
-# print ("Number of arguments:", len(sys.argv), "arguments.")
-# print ("Argument List:", str(sys.argv))
 process_dataset("../data/", str(sys.argv[1]), int(sys.argv[2]), int(sys.argv[3]))

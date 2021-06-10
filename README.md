@@ -13,7 +13,7 @@ Implementation of
 
 Existing methods only detect edge or subgraph anomalies. We extend count-min sketch to higher-order preserving the dense subgraph structure & detect both. Our approach is the first streaming method that uses dense subgraph search to detect graph anomalies in constant memory and time.
 
-![](AnoGraph.png)
+<img src="AnoGraph.png" width="400">
 
 Dense subgraph in the original graph between source nodes s1, s2, and destination nodes d1, d2, d3 is transformed to a (b) Dense submatrix between rows r1, r2, and columns c1, c2, c3
 in the higher order CMS.
@@ -21,7 +21,7 @@ in the higher order CMS.
 ## Demo
 
 1. To run on DARPA dataset `bash demo.sh DARPA`
-2. To run on ISXC dataset `bash demo.sh ISCX`
+2. To run on ISCX dataset `bash demo.sh ISCX`
 
 ## Datasets
 1. [DARPA](http://kdd.ics.uci.edu/databases/kddcup99/kddcup99.html)
