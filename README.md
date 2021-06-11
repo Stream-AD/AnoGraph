@@ -15,8 +15,7 @@ Existing methods only detect edge or subgraph anomalies. We extend count-min ske
 
 <img src="AnoGraph.png" width="400">
 
-Dense subgraph in the original graph between source nodes s1, s2, and destination nodes d1, d2, d3 is transformed to a (b) Dense submatrix between rows r1, r2, and columns c1, c2, c3
-in the higher order CMS.
+(a) Dense subgraph in the original graph between source nodes s1, s2, and destination nodes d1, d2, d3 is transformed to a (b) Dense submatrix between rows r1, r2, and columns c1, c2, c3 in the higher order CMS.
 
 AnoEdge-G and AnoEdge-L detect edge anomalies by checking whether the received edge when mapped to a sketch matrix element is part of a dense submatrix. AnoEdge-G finds a Global dense submatrix and performs well in practice while ANOEDGE-L maintains and updates a Local dense submatrix around the matrix element and therefore has better time complexity.
 
