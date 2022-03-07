@@ -9,7 +9,7 @@
 
 Implementation of
 
-- [Sketch-Based Streaming Anomaly Detection in Dynamic Graphs](https://arxiv.org/pdf/2106.04486.pdf). Siddharth Bhatia, Mohit Wadhwa, Philip S. Yu, Bryan Hooi
+- [Sketch-Based Anomaly Detection in Streaming Graphs](https://arxiv.org/pdf/2106.04486.pdf). Siddharth Bhatia, Mohit Wadhwa, Kenji Kawaguchi, Neil Shah, Philip S. Yu, Bryan Hooi
 
 Existing methods only detect edge or subgraph anomalies. We extend count-min sketch to higher-order preserving the dense subgraph structure & detect both. Our approach is the first streaming method that uses dense subgraph search to detect graph anomalies in constant memory and time.
 
