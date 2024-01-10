@@ -9,7 +9,7 @@
 
 Implementation of
 
-- [Sketch-Based Anomaly Detection in Streaming Graphs](https://dl.acm.org/doi/pdf/10.1145/3580305.3599504). *Siddharth Bhatia, Mohit Wadhwa, Kenji Kawaguchi, Neil Shah, Philip S. Yu, Bryan Hooi*. KDD 2023.
+- [Sketch-Based Anomaly Detection in Streaming Graphs](https://dl.acm.org/doi/pdf/10.1145/3580305.3599504). *Siddharth Bhatia, Mohit Wadhwa, Kenji Kawaguchi, Neil Shah, Philip S. Yu, Bryan Hooi*. KDD, 2023.
 
 Existing methods only detect edge or subgraph anomalies. We extend count-min sketch to higher-order preserving the dense subgraph structure & detect both. Our approach is the first streaming method that uses dense subgraph search to detect graph anomalies in constant memory and time.
 
@@ -47,8 +47,8 @@ If you use this code for your research, please consider citing our KDD paper.
 
 ```bibtex
 @inproceedings{bhatia2023anograph,
-    title="Sketch-Based Anomaly Detection in Streaming Graphs",
-    author="Siddharth {Bhatia} and Mohit {Wadhwa} and Kenji {Kawaguchi} and Neil {Shah} and Philip {S. Yu} and Bryan {Hooi}",
-    booktitle="SIGKDD Conference on Knowledge Discovery and Data Mining (KDD)",
-    year="2023"
+    title={Sketch-Based Anomaly Detection in Streaming Graphs},
+    author={Siddharth Bhatia and Mohit Wadhwa and Kenji Kawaguchi and Neil Shah and Philip S. Yu and Bryan Hooi},
+    booktitle={SIGKDD Conference on Knowledge Discovery and Data Mining (KDD)},
+    year={2023}
 }
