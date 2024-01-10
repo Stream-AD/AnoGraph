@@ -36,3 +36,19 @@ CIC-IDS2018 and CIC-DDoS2019 Datasets are larger than 100MB and cannot be upload
 
 ## Environment
 This code has been tested on OS X 10.15.3 with a 2.4GHz Intel Core i9 processor.
+
+## In Other Languages
+
+1. Python: [Victor Hoffmann's Python](https://github.com/VictorHoffmann1/AnoGraph-for-River-API)
+
+## Citation
+
+If you use this code for your research, please consider citing our KDD paper
+
+```bibtex
+@inproceedings{bhatia2022anograph,
+    title="Sketch-Based Anomaly Detection in Streaming Graphs",
+    author="Siddharth {Bhatia} and Mohit {Wadhwa} and Kenji {Kawaguchi} and Neil {Shah} and Philip {S. Yu} and Bryan {Hooi}",
+    booktitle="SIGKDD Conference on Knowledge Discovery and Data Mining (KDD)",
+    year="2023"
+}
