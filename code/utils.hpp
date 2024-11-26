@@ -15,7 +15,7 @@ const string TIME_FILE_SUFFIX = "_time.csv";
 class WriteUtils {
     public:
 		static void writeScoresAndLabels(vector<double> scores, vector<int> labels, string output_file);
-		static void writeTime(double total_time, int num_records, string output_file);
+		static void writeTime(double total_time, size_t num_records, string output_file);
 };
 
 class ReadUtils {

@@ -23,8 +23,15 @@ AnoGraph and AnoGraph-K detect graph anomalies by first mapping the graph to a h
 
 ## Demo
 
-1. To run on DARPA dataset `bash demo.sh DARPA`
-2. To run on ISCX dataset `bash demo.sh ISCX`
+1. To run on DARPA dataset 
+```
+bash demo.sh DARPA
+```
+
+2. To run on ISCX dataset 
+```
+bash demo.sh ISCX
+```
 
 ## Datasets
 1. [DARPA](http://kdd.ics.uci.edu/databases/kddcup99/kddcup99.html)

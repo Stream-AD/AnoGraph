@@ -1,5 +1,6 @@
 #include <iostream>
 #include <cmath>
+#include <algorithm>
 
 #include "anograph.hpp"
 #include "hcms.hpp"

@@ -1,0 +1,14 @@
+# cpp object files
+*.o
+
+# results files
+results/*.csv
+
+# preprocessed data labels
+data/*/Label_*_*.csv
+
+# main executable file
+main
+
+# idea
+.idea

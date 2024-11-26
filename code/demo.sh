@@ -13,11 +13,25 @@ if [ $1 == "DARPA" ]; then
   ./main anograph_k DARPA 30 50 2 32 5
 
   echo "Running AnoEdge-G"
+  # Algorithm => anoedge_g
+  # Dataset => DARPA
+  # Rows => 2
+  # Buckets => 32
+  # Decay factor => 0.9
   ./main anoedge_g DARPA 2 32 0.9
 
   echo "Running AnoEdge-L"
+  # Algorithm => anoedge_g
+  # Dataset => DARPA
+  # Rows => 2
+  # Buckets => 32
+  # Decay factor => 0.9
   ./main anoedge_l DARPA 2 32 0.9
 
+  echo "Installing python dependencies"
+  pip3 install -r requirements.txt
+
+  echo "Running python metrics"
   python3 metrics.py --dataset DARPA --time_window 30 --edge_threshold 50
 
 fi

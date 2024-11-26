@@ -1,6 +1,7 @@
 #include <iostream>
 #include <cmath>
 #include <queue>
+#include <algorithm>
 
 #include "anographk.hpp"
 #include "hcms.hpp"
